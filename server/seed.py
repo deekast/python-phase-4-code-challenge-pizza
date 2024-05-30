@@ -21,10 +21,8 @@ with app.app_context():
     print("Creating pizzas...")
 
     cheese = Pizza(name="Emma", ingredients="Dough, Tomato Sauce, Cheese")
-    pepperoni = Pizza(
-        name="Geri", ingredients="Dough, Tomato Sauce, Cheese, Pepperoni")
-    california = Pizza(
-        name="Melanie", ingredients="Dough, Sauce, Ricotta, Red peppers, Mustard")
+    pepperoni = Pizza(name="Geri", ingredients="Dough, Tomato Sauce, Cheese, Pepperoni")
+    california = Pizza(name="Melanie", ingredients="Dough, Sauce, Ricotta, Red peppers, Mustard")
     pizzas = [cheese, pepperoni, california]
 
     print("Creating RestaurantPizza...")
